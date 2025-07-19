@@ -1,0 +1,55 @@
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    margin-bottom: 80px;
+  }
+  
+  .carre-contenu h2 {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu + div {
+    text-align: center;
+  }
+  
+  .a-propos-main {
+    width: 50%;
+    margin: auto;
+  }
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 20px auto;
+}
+
+td {
+    padding: 80px;
+}
+
+th {
+    padding: 15px;
+}
+
+td, th {
+    border: 1px solid white;
+    color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .section-tarifs {
+    display: none;
+  }
+}
